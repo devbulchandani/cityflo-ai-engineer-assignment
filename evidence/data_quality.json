@@ -1,0 +1,278 @@
+{
+  "tool": "data_quality",
+  "arguments": {},
+  "result": {
+    "raw_rows": 5292,
+    "included_rows": 5250,
+    "excluded_rows": {
+      "arrival_before_scheduled_departure": 18,
+      "invalid_timestamp_or_offset": 24
+    },
+    "excluded_trip_references": [
+      {
+        "trip_id": "T1-00136",
+        "route": "R-01",
+        "day": "2026-08-09",
+        "reason": "invalid_timestamp_or_offset"
+      },
+      {
+        "trip_id": "T1-00352",
+        "route": "R-03",
+        "day": "2026-08-09",
+        "reason": "invalid_timestamp_or_offset"
+      },
+      {
+        "trip_id": "T1-00361",
+        "route": "R-03",
+        "day": "2026-08-09",
+        "reason": "arrival_before_scheduled_departure"
+      },
+      {
+        "trip_id": "T1-00392",
+        "route": "R-04",
+        "day": "2026-08-04",
+        "reason": "arrival_before_scheduled_departure"
+      },
+      {
+        "trip_id": "T1-00417",
+        "route": "R-04",
+        "day": "2026-08-05",
+        "reason": "arrival_before_scheduled_departure"
+      },
+      {
+        "trip_id": "T1-00470",
+        "route": "R-04",
+        "day": "2026-08-08",
+        "reason": "invalid_timestamp_or_offset"
+      },
+      {
+        "trip_id": "T1-00673",
+        "route": "R-06",
+        "day": "2026-08-06",
+        "reason": "arrival_before_scheduled_departure"
+      },
+      {
+        "trip_id": "T1-00734",
+        "route": "R-06",
+        "day": "2026-08-09",
+        "reason": "invalid_timestamp_or_offset"
+      },
+      {
+        "trip_id": "T1-01111",
+        "route": "R-09",
+        "day": "2026-08-07",
+        "reason": "arrival_before_scheduled_departure"
+      },
+      {
+        "trip_id": "T1-01303",
+        "route": "R-11",
+        "day": "2026-08-04",
+        "reason": "arrival_before_scheduled_departure"
+      },
+      {
+        "trip_id": "T1-01372",
+        "route": "R-11",
+        "day": "2026-08-07",
+        "reason": "invalid_timestamp_or_offset"
+      },
+      {
+        "trip_id": "T1-01419",
+        "route": "R-11",
+        "day": "2026-08-09",
+        "reason": "arrival_before_scheduled_departure"
+      },
+      {
+        "trip_id": "T1-01691",
+        "route": "R-14",
+        "day": "2026-08-04",
+        "reason": "arrival_before_scheduled_departure"
+      },
+      {
+        "trip_id": "T1-02034",
+        "route": "R-16",
+        "day": "2026-08-09",
+        "reason": "invalid_timestamp_or_offset"
+      },
+      {
+        "trip_id": "T1-02470",
+        "route": "R-19",
+        "day": "2026-08-09",
+        "reason": "invalid_timestamp_or_offset"
+      },
+      {
+        "trip_id": "T1-02488",
+        "route": "R-20",
+        "day": "2026-08-03",
+        "reason": "arrival_before_scheduled_departure"
+      },
+      {
+        "trip_id": "T1-02585",
+        "route": "R-20",
+        "day": "2026-08-08",
+        "reason": "invalid_timestamp_or_offset"
+      },
+      {
+        "trip_id": "T1-02697",
+        "route": "R-21",
+        "day": "2026-08-06",
+        "reason": "arrival_before_scheduled_departure"
+      },
+      {
+        "trip_id": "T1-02730",
+        "route": "R-21",
+        "day": "2026-08-08",
+        "reason": "arrival_before_scheduled_departure"
+      },
+      {
+        "trip_id": "T1-02930",
+        "route": "R-23",
+        "day": "2026-08-06",
+        "reason": "invalid_timestamp_or_offset"
+      },
+      {
+        "trip_id": "T1-03142",
+        "route": "R-24",
+        "day": "2026-08-09",
+        "reason": "arrival_before_scheduled_departure"
+      },
+      {
+        "trip_id": "T1-03274",
+        "route": "R-25",
+        "day": "2026-08-09",
+        "reason": "invalid_timestamp_or_offset"
+      },
+      {
+        "trip_id": "T1-03297",
+        "route": "R-26",
+        "day": "2026-08-03",
+        "reason": "invalid_timestamp_or_offset"
+      },
+      {
+        "trip_id": "T1-03377",
+        "route": "R-26",
+        "day": "2026-08-09",
+        "reason": "arrival_before_scheduled_departure"
+      },
+      {
+        "trip_id": "T1-03396",
+        "route": "R-27",
+        "day": "2026-08-03",
+        "reason": "invalid_timestamp_or_offset"
+      },
+      {
+        "trip_id": "T1-03414",
+        "route": "R-27",
+        "day": "2026-08-04",
+        "reason": "invalid_timestamp_or_offset"
+      },
+      {
+        "trip_id": "T1-03490",
+        "route": "R-27",
+        "day": "2026-08-07",
+        "reason": "invalid_timestamp_or_offset"
+      },
+      {
+        "trip_id": "T1-03491",
+        "route": "R-27",
+        "day": "2026-08-07",
+        "reason": "arrival_before_scheduled_departure"
+      },
+      {
+        "trip_id": "T1-03636",
+        "route": "R-28",
+        "day": "2026-08-07",
+        "reason": "arrival_before_scheduled_departure"
+      },
+      {
+        "trip_id": "T1-03641",
+        "route": "R-28",
+        "day": "2026-08-07",
+        "reason": "invalid_timestamp_or_offset"
+      },
+      {
+        "trip_id": "T1-03669",
+        "route": "R-28",
+        "day": "2026-08-09",
+        "reason": "invalid_timestamp_or_offset"
+      },
+      {
+        "trip_id": "T1-03716",
+        "route": "R-29",
+        "day": "2026-08-04",
+        "reason": "invalid_timestamp_or_offset"
+      },
+      {
+        "trip_id": "T1-03733",
+        "route": "R-29",
+        "day": "2026-08-04",
+        "reason": "invalid_timestamp_or_offset"
+      },
+      {
+        "trip_id": "T1-03822",
+        "route": "R-29",
+        "day": "2026-08-09",
+        "reason": "invalid_timestamp_or_offset"
+      },
+      {
+        "trip_id": "T1-04337",
+        "route": "R-33",
+        "day": "2026-08-09",
+        "reason": "invalid_timestamp_or_offset"
+      },
+      {
+        "trip_id": "T1-04381",
+        "route": "R-34",
+        "day": "2026-08-05",
+        "reason": "arrival_before_scheduled_departure"
+      },
+      {
+        "trip_id": "T1-04466",
+        "route": "R-34",
+        "day": "2026-08-09",
+        "reason": "invalid_timestamp_or_offset"
+      },
+      {
+        "trip_id": "T1-04540",
+        "route": "R-35",
+        "day": "2026-08-06",
+        "reason": "arrival_before_scheduled_departure"
+      },
+      {
+        "trip_id": "T1-04646",
+        "route": "R-36",
+        "day": "2026-08-05",
+        "reason": "invalid_timestamp_or_offset"
+      },
+      {
+        "trip_id": "T1-04846",
+        "route": "R-38",
+        "day": "2026-08-03",
+        "reason": "invalid_timestamp_or_offset"
+      },
+      {
+        "trip_id": "T1-05210",
+        "route": "R-40",
+        "day": "2026-08-06",
+        "reason": "invalid_timestamp_or_offset"
+      },
+      {
+        "trip_id": "T1-05264",
+        "route": "R-40",
+        "day": "2026-08-08",
+        "reason": "arrival_before_scheduled_departure"
+      }
+    ],
+    "schedule_overrides_applied": 188,
+    "nonlocal_timezone_rows_normalized": 1,
+    "routes": 40,
+    "days": [
+      "2026-08-03",
+      "2026-08-04",
+      "2026-08-05",
+      "2026-08-06",
+      "2026-08-07",
+      "2026-08-08",
+      "2026-08-09"
+    ]
+  }
+}

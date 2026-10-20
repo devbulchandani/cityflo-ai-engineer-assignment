@@ -1,0 +1,225 @@
+{
+  "tool": "trip_evidence",
+  "arguments": {
+    "route": "R-35",
+    "start_date": "2026-08-05",
+    "end_date": "2026-08-05",
+    "min_lateness_min": 30,
+    "limit": 25
+  },
+  "result": {
+    "route": "R-35",
+    "matched": 19,
+    "trips": [
+      {
+        "trip_id": "T1-04511",
+        "route": "R-35",
+        "vehicle_series": "35",
+        "day": "2026-08-05",
+        "scheduled_departure": "2026-08-05 06:35",
+        "actual_arrival_local": "2026-08-05 07:51",
+        "scheduled_runtime_min": 40,
+        "lateness_min": 36.0,
+        "tz_offset": "+05:30"
+      },
+      {
+        "trip_id": "T1-04505",
+        "route": "R-35",
+        "vehicle_series": "35",
+        "day": "2026-08-05",
+        "scheduled_departure": "2026-08-05 07:18",
+        "actual_arrival_local": "2026-08-05 09:04",
+        "scheduled_runtime_min": 55,
+        "lateness_min": 51.0,
+        "tz_offset": "+05:30"
+      },
+      {
+        "trip_id": "T1-04509",
+        "route": "R-35",
+        "vehicle_series": "35",
+        "day": "2026-08-05",
+        "scheduled_departure": "2026-08-05 07:59",
+        "actual_arrival_local": "2026-08-05 09:14",
+        "scheduled_runtime_min": 35,
+        "lateness_min": 40.0,
+        "tz_offset": "+05:30"
+      },
+      {
+        "trip_id": "T1-04519",
+        "route": "R-35",
+        "vehicle_series": "35",
+        "day": "2026-08-05",
+        "scheduled_departure": "2026-08-05 08:14",
+        "actual_arrival_local": "2026-08-05 09:46",
+        "scheduled_runtime_min": 35,
+        "lateness_min": 57.0,
+        "tz_offset": "+05:30"
+      },
+      {
+        "trip_id": "T1-04517",
+        "route": "R-35",
+        "vehicle_series": "35",
+        "day": "2026-08-05",
+        "scheduled_departure": "2026-08-05 08:26",
+        "actual_arrival_local": "2026-08-05 10:12",
+        "scheduled_runtime_min": 55,
+        "lateness_min": 51.0,
+        "tz_offset": "+05:30"
+      },
+      {
+        "trip_id": "T1-04515",
+        "route": "R-35",
+        "vehicle_series": "35",
+        "day": "2026-08-05",
+        "scheduled_departure": "2026-08-05 09:04",
+        "actual_arrival_local": "2026-08-05 10:45",
+        "scheduled_runtime_min": 55,
+        "lateness_min": 46.0,
+        "tz_offset": "+05:30"
+      },
+      {
+        "trip_id": "T1-04522",
+        "route": "R-35",
+        "vehicle_series": "35",
+        "day": "2026-08-05",
+        "scheduled_departure": "2026-08-05 11:20",
+        "actual_arrival_local": "2026-08-05 12:55",
+        "scheduled_runtime_min": 40,
+        "lateness_min": 55.0,
+        "tz_offset": "+05:30"
+      },
+      {
+        "trip_id": "T1-04510",
+        "route": "R-35",
+        "vehicle_series": "35",
+        "day": "2026-08-05",
+        "scheduled_departure": "2026-08-05 11:22",
+        "actual_arrival_local": "2026-08-05 13:07",
+        "scheduled_runtime_min": 55,
+        "lateness_min": 50.0,
+        "tz_offset": "+05:30"
+      },
+      {
+        "trip_id": "T1-04521",
+        "route": "R-35",
+        "vehicle_series": "35",
+        "day": "2026-08-05",
+        "scheduled_departure": "2026-08-05 12:21",
+        "actual_arrival_local": "2026-08-05 13:57",
+        "scheduled_runtime_min": 35,
+        "lateness_min": 61.0,
+        "tz_offset": "+05:30"
+      },
+      {
+        "trip_id": "T1-04523",
+        "route": "R-35",
+        "vehicle_series": "35",
+        "day": "2026-08-05",
+        "scheduled_departure": "2026-08-05 12:50",
+        "actual_arrival_local": "2026-08-05 14:36",
+        "scheduled_runtime_min": 50,
+        "lateness_min": 56.0,
+        "tz_offset": "+05:30"
+      },
+      {
+        "trip_id": "T1-04507",
+        "route": "R-35",
+        "vehicle_series": "35",
+        "day": "2026-08-05",
+        "scheduled_departure": "2026-08-05 12:55",
+        "actual_arrival_local": "2026-08-05 14:30",
+        "scheduled_runtime_min": 40,
+        "lateness_min": 55.0,
+        "tz_offset": "+05:30"
+      },
+      {
+        "trip_id": "T1-04518",
+        "route": "R-35",
+        "vehicle_series": "35",
+        "day": "2026-08-05",
+        "scheduled_departure": "2026-08-05 14:03",
+        "actual_arrival_local": "2026-08-05 15:31",
+        "scheduled_runtime_min": 40,
+        "lateness_min": 48.0,
+        "tz_offset": "+05:30"
+      },
+      {
+        "trip_id": "T1-04520",
+        "route": "R-35",
+        "vehicle_series": "35",
+        "day": "2026-08-05",
+        "scheduled_departure": "2026-08-05 14:05",
+        "actual_arrival_local": "2026-08-05 15:47",
+        "scheduled_runtime_min": 50,
+        "lateness_min": 52.0,
+        "tz_offset": "+05:30"
+      },
+      {
+        "trip_id": "T1-04514",
+        "route": "R-35",
+        "vehicle_series": "35",
+        "day": "2026-08-05",
+        "scheduled_departure": "2026-08-05 14:23",
+        "actual_arrival_local": "2026-08-05 16:10",
+        "scheduled_runtime_min": 55,
+        "lateness_min": 52.0,
+        "tz_offset": "+05:30"
+      },
+      {
+        "trip_id": "T1-04506",
+        "route": "R-35",
+        "vehicle_series": "35",
+        "day": "2026-08-05",
+        "scheduled_departure": "2026-08-05 16:42",
+        "actual_arrival_local": "2026-08-05 17:54",
+        "scheduled_runtime_min": 35,
+        "lateness_min": 37.0,
+        "tz_offset": "+05:30"
+      },
+      {
+        "trip_id": "T1-04516",
+        "route": "R-35",
+        "vehicle_series": "35",
+        "day": "2026-08-05",
+        "scheduled_departure": "2026-08-05 17:07",
+        "actual_arrival_local": "2026-08-05 18:52",
+        "scheduled_runtime_min": 45,
+        "lateness_min": 60.0,
+        "tz_offset": "+05:30"
+      },
+      {
+        "trip_id": "T1-04508",
+        "route": "R-35",
+        "vehicle_series": "35",
+        "day": "2026-08-05",
+        "scheduled_departure": "2026-08-05 19:24",
+        "actual_arrival_local": "2026-08-05 21:14",
+        "scheduled_runtime_min": 50,
+        "lateness_min": 60.0,
+        "tz_offset": "+05:30"
+      },
+      {
+        "trip_id": "T1-04512",
+        "route": "R-35",
+        "vehicle_series": "35",
+        "day": "2026-08-05",
+        "scheduled_departure": "2026-08-05 19:51",
+        "actual_arrival_local": "2026-08-05 21:25",
+        "scheduled_runtime_min": 40,
+        "lateness_min": 54.0,
+        "tz_offset": "+05:30"
+      },
+      {
+        "trip_id": "T1-04513",
+        "route": "R-35",
+        "vehicle_series": "35",
+        "day": "2026-08-05",
+        "scheduled_departure": "2026-08-05 20:21",
+        "actual_arrival_local": "2026-08-05 22:00",
+        "scheduled_runtime_min": 45,
+        "lateness_min": 54.0,
+        "tz_offset": "+05:30"
+      }
+    ]
+  }
+}

@@ -1,0 +1,280 @@
+{
+  "tool": "trip_evidence",
+  "arguments": {
+    "route": "R-27",
+    "start_date": "2026-08-06",
+    "end_date": "2026-08-08",
+    "min_lateness_min": 10,
+    "limit": 25
+  },
+  "result": {
+    "route": "R-27",
+    "matched": 24,
+    "trips": [
+      {
+        "trip_id": "T1-03459",
+        "route": "R-27",
+        "vehicle_series": "27",
+        "day": "2026-08-06",
+        "scheduled_departure": "2026-08-06 06:42",
+        "actual_arrival_local": "2026-08-06 07:41",
+        "scheduled_runtime_min": 45,
+        "lateness_min": 14.0,
+        "tz_offset": "+05:30"
+      },
+      {
+        "trip_id": "T1-03455",
+        "route": "R-27",
+        "vehicle_series": "27",
+        "day": "2026-08-06",
+        "scheduled_departure": "2026-08-06 10:02",
+        "actual_arrival_local": "2026-08-06 10:58",
+        "scheduled_runtime_min": 45,
+        "lateness_min": 11.0,
+        "tz_offset": "+05:30"
+      },
+      {
+        "trip_id": "T1-03457",
+        "route": "R-27",
+        "vehicle_series": "27",
+        "day": "2026-08-06",
+        "scheduled_departure": "2026-08-06 10:15",
+        "actual_arrival_local": "2026-08-06 11:12",
+        "scheduled_runtime_min": 45,
+        "lateness_min": 12.0,
+        "tz_offset": "+05:30"
+      },
+      {
+        "trip_id": "T1-03472",
+        "route": "R-27",
+        "vehicle_series": "27",
+        "day": "2026-08-06",
+        "scheduled_departure": "2026-08-06 10:16",
+        "actual_arrival_local": "2026-08-06 11:14",
+        "scheduled_runtime_min": 45,
+        "lateness_min": 13.0,
+        "tz_offset": "+05:30"
+      },
+      {
+        "trip_id": "T1-03456",
+        "route": "R-27",
+        "vehicle_series": "27",
+        "day": "2026-08-06",
+        "scheduled_departure": "2026-08-06 12:42",
+        "actual_arrival_local": "2026-08-06 13:39",
+        "scheduled_runtime_min": 45,
+        "lateness_min": 12.0,
+        "tz_offset": "+05:30"
+      },
+      {
+        "trip_id": "T1-03453",
+        "route": "R-27",
+        "vehicle_series": "27",
+        "day": "2026-08-06",
+        "scheduled_departure": "2026-08-06 13:21",
+        "actual_arrival_local": "2026-08-06 14:22",
+        "scheduled_runtime_min": 45,
+        "lateness_min": 16.0,
+        "tz_offset": "+05:30"
+      },
+      {
+        "trip_id": "T1-03452",
+        "route": "R-27",
+        "vehicle_series": "27",
+        "day": "2026-08-06",
+        "scheduled_departure": "2026-08-06 21:25",
+        "actual_arrival_local": "2026-08-06 22:23",
+        "scheduled_runtime_min": 45,
+        "lateness_min": 13.0,
+        "tz_offset": "+05:30"
+      },
+      {
+        "trip_id": "T1-03477",
+        "route": "R-27",
+        "vehicle_series": "27",
+        "day": "2026-08-07",
+        "scheduled_departure": "2026-08-07 06:52",
+        "actual_arrival_local": "2026-08-07 07:59",
+        "scheduled_runtime_min": 45,
+        "lateness_min": 22.0,
+        "tz_offset": "+05:30"
+      },
+      {
+        "trip_id": "T1-03488",
+        "route": "R-27",
+        "vehicle_series": "27",
+        "day": "2026-08-07",
+        "scheduled_departure": "2026-08-07 07:08",
+        "actual_arrival_local": "2026-08-07 08:04",
+        "scheduled_runtime_min": 45,
+        "lateness_min": 11.0,
+        "tz_offset": "+05:30"
+      },
+      {
+        "trip_id": "T1-03483",
+        "route": "R-27",
+        "vehicle_series": "27",
+        "day": "2026-08-07",
+        "scheduled_departure": "2026-08-07 07:38",
+        "actual_arrival_local": "2026-08-07 08:37",
+        "scheduled_runtime_min": 45,
+        "lateness_min": 14.0,
+        "tz_offset": "+05:30"
+      },
+      {
+        "trip_id": "T1-03482",
+        "route": "R-27",
+        "vehicle_series": "27",
+        "day": "2026-08-07",
+        "scheduled_departure": "2026-08-07 12:18",
+        "actual_arrival_local": "2026-08-07 13:17",
+        "scheduled_runtime_min": 45,
+        "lateness_min": 14.0,
+        "tz_offset": "+05:30"
+      },
+      {
+        "trip_id": "T1-03487",
+        "route": "R-27",
+        "vehicle_series": "27",
+        "day": "2026-08-07",
+        "scheduled_departure": "2026-08-07 12:54",
+        "actual_arrival_local": "2026-08-07 14:01",
+        "scheduled_runtime_min": 45,
+        "lateness_min": 22.0,
+        "tz_offset": "+05:30"
+      },
+      {
+        "trip_id": "T1-03492",
+        "route": "R-27",
+        "vehicle_series": "27",
+        "day": "2026-08-07",
+        "scheduled_departure": "2026-08-07 16:54",
+        "actual_arrival_local": "2026-08-07 17:53",
+        "scheduled_runtime_min": 45,
+        "lateness_min": 14.0,
+        "tz_offset": "+05:30"
+      },
+      {
+        "trip_id": "T1-03478",
+        "route": "R-27",
+        "vehicle_series": "27",
+        "day": "2026-08-07",
+        "scheduled_departure": "2026-08-07 17:16",
+        "actual_arrival_local": "2026-08-07 18:13",
+        "scheduled_runtime_min": 45,
+        "lateness_min": 12.0,
+        "tz_offset": "+05:30"
+      },
+      {
+        "trip_id": "T1-03474",
+        "route": "R-27",
+        "vehicle_series": "27",
+        "day": "2026-08-07",
+        "scheduled_departure": "2026-08-07 17:36",
+        "actual_arrival_local": "2026-08-07 18:36",
+        "scheduled_runtime_min": 45,
+        "lateness_min": 15.0,
+        "tz_offset": "+05:30"
+      },
+      {
+        "trip_id": "T1-03479",
+        "route": "R-27",
+        "vehicle_series": "27",
+        "day": "2026-08-07",
+        "scheduled_departure": "2026-08-07 18:10",
+        "actual_arrival_local": "2026-08-07 19:08",
+        "scheduled_runtime_min": 45,
+        "lateness_min": 13.0,
+        "tz_offset": "+05:30"
+      },
+      {
+        "trip_id": "T1-03493",
+        "route": "R-27",
+        "vehicle_series": "27",
+        "day": "2026-08-07",
+        "scheduled_departure": "2026-08-07 21:21",
+        "actual_arrival_local": "2026-08-07 22:25",
+        "scheduled_runtime_min": 45,
+        "lateness_min": 19.0,
+        "tz_offset": "+05:30"
+      },
+      {
+        "trip_id": "T1-03500",
+        "route": "R-27",
+        "vehicle_series": "27",
+        "day": "2026-08-08",
+        "scheduled_departure": "2026-08-08 07:03",
+        "actual_arrival_local": "2026-08-08 08:13",
+        "scheduled_runtime_min": 45,
+        "lateness_min": 25.0,
+        "tz_offset": "+05:30"
+      },
+      {
+        "trip_id": "T1-03505",
+        "route": "R-27",
+        "vehicle_series": "27",
+        "day": "2026-08-08",
+        "scheduled_departure": "2026-08-08 07:19",
+        "actual_arrival_local": "2026-08-08 08:18",
+        "scheduled_runtime_min": 45,
+        "lateness_min": 14.0,
+        "tz_offset": "+05:30"
+      },
+      {
+        "trip_id": "T1-03502",
+        "route": "R-27",
+        "vehicle_series": "27",
+        "day": "2026-08-08",
+        "scheduled_departure": "2026-08-08 07:21",
+        "actual_arrival_local": "2026-08-08 08:17",
+        "scheduled_runtime_min": 45,
+        "lateness_min": 11.0,
+        "tz_offset": "+05:30"
+      },
+      {
+        "trip_id": "T1-03499",
+        "route": "R-27",
+        "vehicle_series": "27",
+        "day": "2026-08-08",
+        "scheduled_departure": "2026-08-08 13:09",
+        "actual_arrival_local": "2026-08-08 14:12",
+        "scheduled_runtime_min": 45,
+        "lateness_min": 18.0,
+        "tz_offset": "+05:30"
+      },
+      {
+        "trip_id": "T1-03501",
+        "route": "R-27",
+        "vehicle_series": "27",
+        "day": "2026-08-08",
+        "scheduled_departure": "2026-08-08 16:10",
+        "actual_arrival_local": "2026-08-08 17:09",
+        "scheduled_runtime_min": 45,
+        "lateness_min": 14.0,
+        "tz_offset": "+05:30"
+      },
+      {
+        "trip_id": "T1-03496",
+        "route": "R-27",
+        "vehicle_series": "27",
+        "day": "2026-08-08",
+        "scheduled_departure": "2026-08-08 19:17",
+        "actual_arrival_local": "2026-08-08 20:15",
+        "scheduled_runtime_min": 45,
+        "lateness_min": 13.0,
+        "tz_offset": "+05:30"
+      },
+      {
+        "trip_id": "T1-03514",
+        "route": "R-27",
+        "vehicle_series": "27",
+        "day": "2026-08-08",
+        "scheduled_departure": "2026-08-08 21:15",
+        "actual_arrival_local": "2026-08-08 22:10",
+        "scheduled_runtime_min": 45,
+        "lateness_min": 10.0,
+        "tz_offset": "+05:30"
+      }
+    ]
+  }
+}

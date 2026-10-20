@@ -1,0 +1,21 @@
+{
+  "tool": "ops_context",
+  "arguments": {
+    "day": "2026-08-05"
+  },
+  "result": {
+    "route_linked": false,
+    "events": [
+      {
+        "date": "2026-08-05",
+        "category": "weather_diversion",
+        "summary": "Western corridor waterlogging; an approximately 35-minute diversion was reported during the morning."
+      },
+      {
+        "date": "2026-08-05",
+        "category": "citywide_demand_surge",
+        "summary": "Festival crowd surge around 18:20; a citywide slowdown was reported."
+      }
+    ]
+  }
+}

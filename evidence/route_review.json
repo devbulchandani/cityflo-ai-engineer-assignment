@@ -1,0 +1,920 @@
+{
+  "tool": "route_review",
+  "arguments": {
+    "limit": 40
+  },
+  "result": {
+    "quality": {
+      "raw_rows": 5292,
+      "included_rows": 5250,
+      "excluded_rows": {
+        "arrival_before_scheduled_departure": 18,
+        "invalid_timestamp_or_offset": 24
+      },
+      "excluded_trip_references": [
+        {
+          "trip_id": "T1-00136",
+          "route": "R-01",
+          "day": "2026-08-09",
+          "reason": "invalid_timestamp_or_offset"
+        },
+        {
+          "trip_id": "T1-00352",
+          "route": "R-03",
+          "day": "2026-08-09",
+          "reason": "invalid_timestamp_or_offset"
+        },
+        {
+          "trip_id": "T1-00361",
+          "route": "R-03",
+          "day": "2026-08-09",
+          "reason": "arrival_before_scheduled_departure"
+        },
+        {
+          "trip_id": "T1-00392",
+          "route": "R-04",
+          "day": "2026-08-04",
+          "reason": "arrival_before_scheduled_departure"
+        },
+        {
+          "trip_id": "T1-00417",
+          "route": "R-04",
+          "day": "2026-08-05",
+          "reason": "arrival_before_scheduled_departure"
+        },
+        {
+          "trip_id": "T1-00470",
+          "route": "R-04",
+          "day": "2026-08-08",
+          "reason": "invalid_timestamp_or_offset"
+        },
+        {
+          "trip_id": "T1-00673",
+          "route": "R-06",
+          "day": "2026-08-06",
+          "reason": "arrival_before_scheduled_departure"
+        },
+        {
+          "trip_id": "T1-00734",
+          "route": "R-06",
+          "day": "2026-08-09",
+          "reason": "invalid_timestamp_or_offset"
+        },
+        {
+          "trip_id": "T1-01111",
+          "route": "R-09",
+          "day": "2026-08-07",
+          "reason": "arrival_before_scheduled_departure"
+        },
+        {
+          "trip_id": "T1-01303",
+          "route": "R-11",
+          "day": "2026-08-04",
+          "reason": "arrival_before_scheduled_departure"
+        },
+        {
+          "trip_id": "T1-01372",
+          "route": "R-11",
+          "day": "2026-08-07",
+          "reason": "invalid_timestamp_or_offset"
+        },
+        {
+          "trip_id": "T1-01419",
+          "route": "R-11",
+          "day": "2026-08-09",
+          "reason": "arrival_before_scheduled_departure"
+        },
+        {
+          "trip_id": "T1-01691",
+          "route": "R-14",
+          "day": "2026-08-04",
+          "reason": "arrival_before_scheduled_departure"
+        },
+        {
+          "trip_id": "T1-02034",
+          "route": "R-16",
+          "day": "2026-08-09",
+          "reason": "invalid_timestamp_or_offset"
+        },
+        {
+          "trip_id": "T1-02470",
+          "route": "R-19",
+          "day": "2026-08-09",
+          "reason": "invalid_timestamp_or_offset"
+        },
+        {
+          "trip_id": "T1-02488",
+          "route": "R-20",
+          "day": "2026-08-03",
+          "reason": "arrival_before_scheduled_departure"
+        },
+        {
+          "trip_id": "T1-02585",
+          "route": "R-20",
+          "day": "2026-08-08",
+          "reason": "invalid_timestamp_or_offset"
+        },
+        {
+          "trip_id": "T1-02697",
+          "route": "R-21",
+          "day": "2026-08-06",
+          "reason": "arrival_before_scheduled_departure"
+        },
+        {
+          "trip_id": "T1-02730",
+          "route": "R-21",
+          "day": "2026-08-08",
+          "reason": "arrival_before_scheduled_departure"
+        },
+        {
+          "trip_id": "T1-02930",
+          "route": "R-23",
+          "day": "2026-08-06",
+          "reason": "invalid_timestamp_or_offset"
+        },
+        {
+          "trip_id": "T1-03142",
+          "route": "R-24",
+          "day": "2026-08-09",
+          "reason": "arrival_before_scheduled_departure"
+        },
+        {
+          "trip_id": "T1-03274",
+          "route": "R-25",
+          "day": "2026-08-09",
+          "reason": "invalid_timestamp_or_offset"
+        },
+        {
+          "trip_id": "T1-03297",
+          "route": "R-26",
+          "day": "2026-08-03",
+          "reason": "invalid_timestamp_or_offset"
+        },
+        {
+          "trip_id": "T1-03377",
+          "route": "R-26",
+          "day": "2026-08-09",
+          "reason": "arrival_before_scheduled_departure"
+        },
+        {
+          "trip_id": "T1-03396",
+          "route": "R-27",
+          "day": "2026-08-03",
+          "reason": "invalid_timestamp_or_offset"
+        },
+        {
+          "trip_id": "T1-03414",
+          "route": "R-27",
+          "day": "2026-08-04",
+          "reason": "invalid_timestamp_or_offset"
+        },
+        {
+          "trip_id": "T1-03490",
+          "route": "R-27",
+          "day": "2026-08-07",
+          "reason": "invalid_timestamp_or_offset"
+        },
+        {
+          "trip_id": "T1-03491",
+          "route": "R-27",
+          "day": "2026-08-07",
+          "reason": "arrival_before_scheduled_departure"
+        },
+        {
+          "trip_id": "T1-03636",
+          "route": "R-28",
+          "day": "2026-08-07",
+          "reason": "arrival_before_scheduled_departure"
+        },
+        {
+          "trip_id": "T1-03641",
+          "route": "R-28",
+          "day": "2026-08-07",
+          "reason": "invalid_timestamp_or_offset"
+        },
+        {
+          "trip_id": "T1-03669",
+          "route": "R-28",
+          "day": "2026-08-09",
+          "reason": "invalid_timestamp_or_offset"
+        },
+        {
+          "trip_id": "T1-03716",
+          "route": "R-29",
+          "day": "2026-08-04",
+          "reason": "invalid_timestamp_or_offset"
+        },
+        {
+          "trip_id": "T1-03733",
+          "route": "R-29",
+          "day": "2026-08-04",
+          "reason": "invalid_timestamp_or_offset"
+        },
+        {
+          "trip_id": "T1-03822",
+          "route": "R-29",
+          "day": "2026-08-09",
+          "reason": "invalid_timestamp_or_offset"
+        },
+        {
+          "trip_id": "T1-04337",
+          "route": "R-33",
+          "day": "2026-08-09",
+          "reason": "invalid_timestamp_or_offset"
+        },
+        {
+          "trip_id": "T1-04381",
+          "route": "R-34",
+          "day": "2026-08-05",
+          "reason": "arrival_before_scheduled_departure"
+        },
+        {
+          "trip_id": "T1-04466",
+          "route": "R-34",
+          "day": "2026-08-09",
+          "reason": "invalid_timestamp_or_offset"
+        },
+        {
+          "trip_id": "T1-04540",
+          "route": "R-35",
+          "day": "2026-08-06",
+          "reason": "arrival_before_scheduled_departure"
+        },
+        {
+          "trip_id": "T1-04646",
+          "route": "R-36",
+          "day": "2026-08-05",
+          "reason": "invalid_timestamp_or_offset"
+        },
+        {
+          "trip_id": "T1-04846",
+          "route": "R-38",
+          "day": "2026-08-03",
+          "reason": "invalid_timestamp_or_offset"
+        },
+        {
+          "trip_id": "T1-05210",
+          "route": "R-40",
+          "day": "2026-08-06",
+          "reason": "invalid_timestamp_or_offset"
+        },
+        {
+          "trip_id": "T1-05264",
+          "route": "R-40",
+          "day": "2026-08-08",
+          "reason": "arrival_before_scheduled_departure"
+        }
+      ],
+      "schedule_overrides_applied": 188,
+      "nonlocal_timezone_rows_normalized": 1,
+      "routes": 40,
+      "days": [
+        "2026-08-03",
+        "2026-08-04",
+        "2026-08-05",
+        "2026-08-06",
+        "2026-08-07",
+        "2026-08-08",
+        "2026-08-09"
+      ]
+    },
+    "routes": [
+      {
+        "route": "R-35",
+        "valid_trips": 132,
+        "median_lateness_min": 2.0,
+        "p90_lateness_min": 50.7,
+        "trips_over_5_min": 32,
+        "excess_delay_min_over_5": 914.0,
+        "material_late_days": [
+          {
+            "date": "2026-08-05",
+            "valid_trips": 19,
+            "median_lateness_min": 52.0,
+            "trips_over_5_min": 19
+          }
+        ],
+        "material_late_day_count": 1,
+        "burden_rank": 1,
+        "verdict": "FLAG \u2014 top-three weekly delay burden"
+      },
+      {
+        "route": "R-27",
+        "valid_trips": 143,
+        "median_lateness_min": 4.0,
+        "p90_lateness_min": 14.0,
+        "trips_over_5_min": 62,
+        "excess_delay_min_over_5": 384.0,
+        "material_late_days": [
+          {
+            "date": "2026-08-06",
+            "valid_trips": 21,
+            "median_lateness_min": 7.0,
+            "trips_over_5_min": 11
+          },
+          {
+            "date": "2026-08-07",
+            "valid_trips": 19,
+            "median_lateness_min": 11.0,
+            "trips_over_5_min": 13
+          },
+          {
+            "date": "2026-08-08",
+            "valid_trips": 21,
+            "median_lateness_min": 8.0,
+            "trips_over_5_min": 13
+          }
+        ],
+        "material_late_day_count": 3,
+        "burden_rank": 2,
+        "verdict": "FLAG \u2014 top-three weekly delay burden"
+      },
+      {
+        "route": "R-14",
+        "valid_trips": 118,
+        "median_lateness_min": 4.0,
+        "p90_lateness_min": 12.0,
+        "trips_over_5_min": 51,
+        "excess_delay_min_over_5": 249.0,
+        "material_late_days": [
+          {
+            "date": "2026-08-03",
+            "valid_trips": 17,
+            "median_lateness_min": 7.0,
+            "trips_over_5_min": 12
+          },
+          {
+            "date": "2026-08-04",
+            "valid_trips": 16,
+            "median_lateness_min": 8.5,
+            "trips_over_5_min": 13
+          }
+        ],
+        "material_late_day_count": 2,
+        "burden_rank": 3,
+        "verdict": "FLAG \u2014 top-three weekly delay burden"
+      },
+      {
+        "route": "R-33",
+        "valid_trips": 104,
+        "median_lateness_min": 5.0,
+        "p90_lateness_min": 10.0,
+        "trips_over_5_min": 49,
+        "excess_delay_min_over_5": 182.0,
+        "material_late_days": [
+          {
+            "date": "2026-08-04",
+            "valid_trips": 15,
+            "median_lateness_min": 5.0,
+            "trips_over_5_min": 6
+          },
+          {
+            "date": "2026-08-05",
+            "valid_trips": 15,
+            "median_lateness_min": 5.0,
+            "trips_over_5_min": 6
+          },
+          {
+            "date": "2026-08-06",
+            "valid_trips": 15,
+            "median_lateness_min": 7.0,
+            "trips_over_5_min": 9
+          },
+          {
+            "date": "2026-08-07",
+            "valid_trips": 15,
+            "median_lateness_min": 5.0,
+            "trips_over_5_min": 7
+          },
+          {
+            "date": "2026-08-08",
+            "valid_trips": 15,
+            "median_lateness_min": 8.0,
+            "trips_over_5_min": 9
+          },
+          {
+            "date": "2026-08-09",
+            "valid_trips": 14,
+            "median_lateness_min": 5.0,
+            "trips_over_5_min": 6
+          }
+        ],
+        "material_late_day_count": 6,
+        "burden_rank": 4,
+        "verdict": "WATCH \u2014 recurring material late days"
+      },
+      {
+        "route": "R-26",
+        "valid_trips": 103,
+        "median_lateness_min": 4.0,
+        "p90_lateness_min": 9.6,
+        "trips_over_5_min": 44,
+        "excess_delay_min_over_5": 131.0,
+        "material_late_days": [
+          {
+            "date": "2026-08-03",
+            "valid_trips": 14,
+            "median_lateness_min": 5.5,
+            "trips_over_5_min": 7
+          },
+          {
+            "date": "2026-08-05",
+            "valid_trips": 15,
+            "median_lateness_min": 6.0,
+            "trips_over_5_min": 8
+          },
+          {
+            "date": "2026-08-06",
+            "valid_trips": 15,
+            "median_lateness_min": 6.0,
+            "trips_over_5_min": 8
+          },
+          {
+            "date": "2026-08-09",
+            "valid_trips": 14,
+            "median_lateness_min": 6.0,
+            "trips_over_5_min": 8
+          }
+        ],
+        "material_late_day_count": 4,
+        "burden_rank": 5,
+        "verdict": "WATCH \u2014 recurring material late days"
+      },
+      {
+        "route": "R-17",
+        "valid_trips": 147,
+        "median_lateness_min": 3.0,
+        "p90_lateness_min": 8.2,
+        "trips_over_5_min": 41,
+        "excess_delay_min_over_5": 130.0,
+        "material_late_days": [
+          {
+            "date": "2026-08-07",
+            "valid_trips": 21,
+            "median_lateness_min": 6.0,
+            "trips_over_5_min": 11
+          }
+        ],
+        "material_late_day_count": 1,
+        "burden_rank": 6,
+        "verdict": "MONITOR \u2014 no sustained route-level signal"
+      },
+      {
+        "route": "R-37",
+        "valid_trips": 105,
+        "median_lateness_min": 4.0,
+        "p90_lateness_min": 9.0,
+        "trips_over_5_min": 42,
+        "excess_delay_min_over_5": 125.0,
+        "material_late_days": [
+          {
+            "date": "2026-08-03",
+            "valid_trips": 15,
+            "median_lateness_min": 5.0,
+            "trips_over_5_min": 7
+          },
+          {
+            "date": "2026-08-07",
+            "valid_trips": 15,
+            "median_lateness_min": 6.0,
+            "trips_over_5_min": 8
+          }
+        ],
+        "material_late_day_count": 2,
+        "burden_rank": 7,
+        "verdict": "WATCH \u2014 recurring material late days"
+      },
+      {
+        "route": "R-09",
+        "valid_trips": 146,
+        "median_lateness_min": 2.0,
+        "p90_lateness_min": 8.0,
+        "trips_over_5_min": 33,
+        "excess_delay_min_over_5": 100.0,
+        "material_late_days": [],
+        "material_late_day_count": 0,
+        "burden_rank": 8,
+        "verdict": "MONITOR \u2014 no sustained route-level signal"
+      },
+      {
+        "route": "R-07",
+        "valid_trips": 147,
+        "median_lateness_min": 3.0,
+        "p90_lateness_min": 8.0,
+        "trips_over_5_min": 32,
+        "excess_delay_min_over_5": 91.0,
+        "material_late_days": [],
+        "material_late_day_count": 0,
+        "burden_rank": 9,
+        "verdict": "MONITOR \u2014 no sustained route-level signal"
+      },
+      {
+        "route": "R-31",
+        "valid_trips": 112,
+        "median_lateness_min": 4.0,
+        "p90_lateness_min": 8.0,
+        "trips_over_5_min": 37,
+        "excess_delay_min_over_5": 91.0,
+        "material_late_days": [
+          {
+            "date": "2026-08-04",
+            "valid_trips": 16,
+            "median_lateness_min": 5.5,
+            "trips_over_5_min": 8
+          }
+        ],
+        "material_late_day_count": 1,
+        "burden_rank": 10,
+        "verdict": "MONITOR \u2014 no sustained route-level signal"
+      },
+      {
+        "route": "R-18",
+        "valid_trips": 154,
+        "median_lateness_min": 2.0,
+        "p90_lateness_min": 7.0,
+        "trips_over_5_min": 32,
+        "excess_delay_min_over_5": 86.0,
+        "material_late_days": [],
+        "material_late_day_count": 0,
+        "burden_rank": 11,
+        "verdict": "MONITOR \u2014 no sustained route-level signal"
+      },
+      {
+        "route": "R-11",
+        "valid_trips": 137,
+        "median_lateness_min": 2.0,
+        "p90_lateness_min": 8.0,
+        "trips_over_5_min": 23,
+        "excess_delay_min_over_5": 84.0,
+        "material_late_days": [],
+        "material_late_day_count": 0,
+        "burden_rank": 12,
+        "verdict": "MONITOR \u2014 no sustained route-level signal"
+      },
+      {
+        "route": "R-40",
+        "valid_trips": 152,
+        "median_lateness_min": 3.0,
+        "p90_lateness_min": 7.0,
+        "trips_over_5_min": 33,
+        "excess_delay_min_over_5": 83.0,
+        "material_late_days": [],
+        "material_late_day_count": 0,
+        "burden_rank": 13,
+        "verdict": "MONITOR \u2014 no sustained route-level signal"
+      },
+      {
+        "route": "R-15",
+        "valid_trips": 119,
+        "median_lateness_min": 3.0,
+        "p90_lateness_min": 8.0,
+        "trips_over_5_min": 25,
+        "excess_delay_min_over_5": 77.0,
+        "material_late_days": [
+          {
+            "date": "2026-08-03",
+            "valid_trips": 17,
+            "median_lateness_min": 6.0,
+            "trips_over_5_min": 9
+          }
+        ],
+        "material_late_day_count": 1,
+        "burden_rank": 14,
+        "verdict": "MONITOR \u2014 no sustained route-level signal"
+      },
+      {
+        "route": "R-20",
+        "valid_trips": 145,
+        "median_lateness_min": 2.0,
+        "p90_lateness_min": 7.0,
+        "trips_over_5_min": 24,
+        "excess_delay_min_over_5": 77.0,
+        "material_late_days": [],
+        "material_late_day_count": 0,
+        "burden_rank": 15,
+        "verdict": "MONITOR \u2014 no sustained route-level signal"
+      },
+      {
+        "route": "R-38",
+        "valid_trips": 146,
+        "median_lateness_min": 1.0,
+        "p90_lateness_min": 7.0,
+        "trips_over_5_min": 24,
+        "excess_delay_min_over_5": 75.0,
+        "material_late_days": [],
+        "material_late_day_count": 0,
+        "burden_rank": 16,
+        "verdict": "MONITOR \u2014 no sustained route-level signal"
+      },
+      {
+        "route": "R-34",
+        "valid_trips": 124,
+        "median_lateness_min": 3.0,
+        "p90_lateness_min": 8.0,
+        "trips_over_5_min": 28,
+        "excess_delay_min_over_5": 74.0,
+        "material_late_days": [
+          {
+            "date": "2026-08-06",
+            "valid_trips": 18,
+            "median_lateness_min": 5.0,
+            "trips_over_5_min": 7
+          }
+        ],
+        "material_late_day_count": 1,
+        "burden_rank": 17,
+        "verdict": "MONITOR \u2014 no sustained route-level signal"
+      },
+      {
+        "route": "R-08",
+        "valid_trips": 126,
+        "median_lateness_min": 3.0,
+        "p90_lateness_min": 7.0,
+        "trips_over_5_min": 26,
+        "excess_delay_min_over_5": 73.0,
+        "material_late_days": [],
+        "material_late_day_count": 0,
+        "burden_rank": 18,
+        "verdict": "MONITOR \u2014 no sustained route-level signal"
+      },
+      {
+        "route": "R-39",
+        "valid_trips": 154,
+        "median_lateness_min": 2.0,
+        "p90_lateness_min": 6.5,
+        "trips_over_5_min": 25,
+        "excess_delay_min_over_5": 73.0,
+        "material_late_days": [],
+        "material_late_day_count": 0,
+        "burden_rank": 19,
+        "verdict": "MONITOR \u2014 no sustained route-level signal"
+      },
+      {
+        "route": "R-19",
+        "valid_trips": 125,
+        "median_lateness_min": 3.0,
+        "p90_lateness_min": 7.0,
+        "trips_over_5_min": 23,
+        "excess_delay_min_over_5": 63.0,
+        "material_late_days": [
+          {
+            "date": "2026-08-09",
+            "valid_trips": 17,
+            "median_lateness_min": 5.0,
+            "trips_over_5_min": 7
+          }
+        ],
+        "material_late_day_count": 1,
+        "burden_rank": 20,
+        "verdict": "MONITOR \u2014 no sustained route-level signal"
+      },
+      {
+        "route": "R-05",
+        "valid_trips": 105,
+        "median_lateness_min": 2.0,
+        "p90_lateness_min": 7.0,
+        "trips_over_5_min": 20,
+        "excess_delay_min_over_5": 62.0,
+        "material_late_days": [
+          {
+            "date": "2026-08-09",
+            "valid_trips": 15,
+            "median_lateness_min": 5.0,
+            "trips_over_5_min": 2
+          }
+        ],
+        "material_late_day_count": 1,
+        "burden_rank": 21,
+        "verdict": "MONITOR \u2014 no sustained route-level signal"
+      },
+      {
+        "route": "R-25",
+        "valid_trips": 139,
+        "median_lateness_min": 1.0,
+        "p90_lateness_min": 7.0,
+        "trips_over_5_min": 20,
+        "excess_delay_min_over_5": 59.0,
+        "material_late_days": [],
+        "material_late_day_count": 0,
+        "burden_rank": 22,
+        "verdict": "MONITOR \u2014 no sustained route-level signal"
+      },
+      {
+        "route": "R-21",
+        "valid_trips": 124,
+        "median_lateness_min": 2.0,
+        "p90_lateness_min": 7.0,
+        "trips_over_5_min": 26,
+        "excess_delay_min_over_5": 55.0,
+        "material_late_days": [],
+        "material_late_day_count": 0,
+        "burden_rank": 23,
+        "verdict": "MONITOR \u2014 no sustained route-level signal"
+      },
+      {
+        "route": "R-03",
+        "valid_trips": 103,
+        "median_lateness_min": 2.0,
+        "p90_lateness_min": 7.0,
+        "trips_over_5_min": 21,
+        "excess_delay_min_over_5": 54.0,
+        "material_late_days": [],
+        "material_late_day_count": 0,
+        "burden_rank": 24,
+        "verdict": "MONITOR \u2014 no sustained route-level signal"
+      },
+      {
+        "route": "R-10",
+        "valid_trips": 126,
+        "median_lateness_min": 1.0,
+        "p90_lateness_min": 7.0,
+        "trips_over_5_min": 18,
+        "excess_delay_min_over_5": 51.0,
+        "material_late_days": [],
+        "material_late_day_count": 0,
+        "burden_rank": 25,
+        "verdict": "MONITOR \u2014 no sustained route-level signal"
+      },
+      {
+        "route": "R-32",
+        "valid_trips": 133,
+        "median_lateness_min": 1.0,
+        "p90_lateness_min": 7.0,
+        "trips_over_5_min": 21,
+        "excess_delay_min_over_5": 49.0,
+        "material_late_days": [],
+        "material_late_day_count": 0,
+        "burden_rank": 26,
+        "verdict": "MONITOR \u2014 no sustained route-level signal"
+      },
+      {
+        "route": "R-01",
+        "valid_trips": 153,
+        "median_lateness_min": 1.0,
+        "p90_lateness_min": 5.0,
+        "trips_over_5_min": 13,
+        "excess_delay_min_over_5": 47.0,
+        "material_late_days": [],
+        "material_late_day_count": 0,
+        "burden_rank": 27,
+        "verdict": "MONITOR \u2014 no sustained route-level signal"
+      },
+      {
+        "route": "R-12",
+        "valid_trips": 112,
+        "median_lateness_min": 2.0,
+        "p90_lateness_min": 6.7,
+        "trips_over_5_min": 15,
+        "excess_delay_min_over_5": 47.0,
+        "material_late_days": [],
+        "material_late_day_count": 0,
+        "burden_rank": 28,
+        "verdict": "MONITOR \u2014 no sustained route-level signal"
+      },
+      {
+        "route": "R-24",
+        "valid_trips": 146,
+        "median_lateness_min": 1.0,
+        "p90_lateness_min": 6.0,
+        "trips_over_5_min": 16,
+        "excess_delay_min_over_5": 45.0,
+        "material_late_days": [],
+        "material_late_day_count": 0,
+        "burden_rank": 29,
+        "verdict": "MONITOR \u2014 no sustained route-level signal"
+      },
+      {
+        "route": "R-22",
+        "valid_trips": 112,
+        "median_lateness_min": 2.0,
+        "p90_lateness_min": 6.0,
+        "trips_over_5_min": 18,
+        "excess_delay_min_over_5": 43.0,
+        "material_late_days": [],
+        "material_late_day_count": 0,
+        "burden_rank": 30,
+        "verdict": "MONITOR \u2014 no sustained route-level signal"
+      },
+      {
+        "route": "R-28",
+        "valid_trips": 151,
+        "median_lateness_min": 1.0,
+        "p90_lateness_min": 5.8,
+        "trips_over_5_min": 15,
+        "excess_delay_min_over_5": 36.0,
+        "material_late_days": [],
+        "material_late_day_count": 0,
+        "burden_rank": 31,
+        "verdict": "MONITOR \u2014 no sustained route-level signal"
+      },
+      {
+        "route": "R-30",
+        "valid_trips": 147,
+        "median_lateness_min": -1.0,
+        "p90_lateness_min": 5.0,
+        "trips_over_5_min": 11,
+        "excess_delay_min_over_5": 33.0,
+        "material_late_days": [],
+        "material_late_day_count": 0,
+        "burden_rank": 32,
+        "verdict": "MONITOR \u2014 no sustained route-level signal"
+      },
+      {
+        "route": "R-02",
+        "valid_trips": 105,
+        "median_lateness_min": 2.0,
+        "p90_lateness_min": 6.4,
+        "trips_over_5_min": 15,
+        "excess_delay_min_over_5": 31.0,
+        "material_late_days": [],
+        "material_late_day_count": 0,
+        "burden_rank": 33,
+        "verdict": "MONITOR \u2014 no sustained route-level signal"
+      },
+      {
+        "route": "R-36",
+        "valid_trips": 132,
+        "median_lateness_min": 1.0,
+        "p90_lateness_min": 5.7,
+        "trips_over_5_min": 13,
+        "excess_delay_min_over_5": 30.0,
+        "material_late_days": [],
+        "material_late_day_count": 0,
+        "burden_rank": 34,
+        "verdict": "MONITOR \u2014 no sustained route-level signal"
+      },
+      {
+        "route": "R-04",
+        "valid_trips": 144,
+        "median_lateness_min": 0.0,
+        "p90_lateness_min": 5.5,
+        "trips_over_5_min": 14,
+        "excess_delay_min_over_5": 27.0,
+        "material_late_days": [],
+        "material_late_day_count": 0,
+        "burden_rank": 35,
+        "verdict": "MONITOR \u2014 no sustained route-level signal"
+      },
+      {
+        "route": "R-29",
+        "valid_trips": 151,
+        "median_lateness_min": -1.0,
+        "p90_lateness_min": 4.0,
+        "trips_over_5_min": 6,
+        "excess_delay_min_over_5": 20.0,
+        "material_late_days": [],
+        "material_late_day_count": 0,
+        "burden_rank": 36,
+        "verdict": "MONITOR \u2014 no sustained route-level signal"
+      },
+      {
+        "route": "R-16",
+        "valid_trips": 146,
+        "median_lateness_min": 0.0,
+        "p90_lateness_min": 4.3,
+        "trips_over_5_min": 7,
+        "excess_delay_min_over_5": 18.0,
+        "material_late_days": [],
+        "material_late_day_count": 0,
+        "burden_rank": 37,
+        "verdict": "MONITOR \u2014 no sustained route-level signal"
+      },
+      {
+        "route": "R-13",
+        "valid_trips": 133,
+        "median_lateness_min": -1.0,
+        "p90_lateness_min": 5.0,
+        "trips_over_5_min": 8,
+        "excess_delay_min_over_5": 16.0,
+        "material_late_days": [],
+        "material_late_day_count": 0,
+        "burden_rank": 38,
+        "verdict": "MONITOR \u2014 no sustained route-level signal"
+      },
+      {
+        "route": "R-23",
+        "valid_trips": 132,
+        "median_lateness_min": 0.0,
+        "p90_lateness_min": 5.0,
+        "trips_over_5_min": 8,
+        "excess_delay_min_over_5": 15.0,
+        "material_late_days": [],
+        "material_late_day_count": 0,
+        "burden_rank": 39,
+        "verdict": "MONITOR \u2014 no sustained route-level signal"
+      },
+      {
+        "route": "R-06",
+        "valid_trips": 117,
+        "median_lateness_min": -2.0,
+        "p90_lateness_min": 4.0,
+        "trips_over_5_min": 6,
+        "excess_delay_min_over_5": 14.0,
+        "material_late_days": [],
+        "material_late_day_count": 0,
+        "burden_rank": 40,
+        "verdict": "MONITOR \u2014 no sustained route-level signal"
+      }
+    ]
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "tool": "trip_evidence",
+  "arguments": {
+    "route": "R-26",
+    "start_date": "2026-08-05",
+    "end_date": "2026-08-06",
+    "min_lateness_min": 10,
+    "limit": 25
+  },
+  "result": {
+    "route": "R-26",
+    "matched": 7,
+    "trips": [
+      {
+        "trip_id": "T1-03322",
+        "route": "R-26",
+        "vehicle_series": "26",
+        "day": "2026-08-05",
+        "scheduled_departure": "2026-08-05 06:18",
+        "actual_arrival_local": "2026-08-05 07:13",
+        "scheduled_runtime_min": 45,
+        "lateness_min": 10.0,
+        "tz_offset": "+05:30"
+      },
+      {
+        "trip_id": "T1-03316",
+        "route": "R-26",
+        "vehicle_series": "26",
+        "day": "2026-08-05",
+        "scheduled_departure": "2026-08-05 13:08",
+        "actual_arrival_local": "2026-08-05 13:53",
+        "scheduled_runtime_min": 35,
+        "lateness_min": 10.0,
+        "tz_offset": "+05:30"
+      },
+      {
+        "trip_id": "T1-03314",
+        "route": "R-26",
+        "vehicle_series": "26",
+        "day": "2026-08-05",
+        "scheduled_departure": "2026-08-05 16:45",
+        "actual_arrival_local": "2026-08-05 17:48",
+        "scheduled_runtime_min": 50,
+        "lateness_min": 13.0,
+        "tz_offset": "+05:30"
+      },
+      {
+        "trip_id": "T1-03340",
+        "route": "R-26",
+        "vehicle_series": "26",
+        "day": "2026-08-06",
+        "scheduled_departure": "2026-08-06 09:17",
+        "actual_arrival_local": "2026-08-06 10:07",
+        "scheduled_runtime_min": 40,
+        "lateness_min": 10.0,
+        "tz_offset": "+05:30"
+      },
+      {
+        "trip_id": "T1-03336",
+        "route": "R-26",
+        "vehicle_series": "26",
+        "day": "2026-08-06",
+        "scheduled_departure": "2026-08-06 11:04",
+        "actual_arrival_local": "2026-08-06 11:54",
+        "scheduled_runtime_min": 40,
+        "lateness_min": 10.0,
+        "tz_offset": "+05:30"
+      },
+      {
+        "trip_id": "T1-03332",
+        "route": "R-26",
+        "vehicle_series": "26",
+        "day": "2026-08-06",
+        "scheduled_departure": "2026-08-06 18:07",
+        "actual_arrival_local": "2026-08-06 18:59",
+        "scheduled_runtime_min": 40,
+        "lateness_min": 12.0,
+        "tz_offset": "+05:30"
+      },
+      {
+        "trip_id": "T1-03331",
+        "route": "R-26",
+        "vehicle_series": "26",
+        "day": "2026-08-06",
+        "scheduled_departure": "2026-08-06 19:10",
+        "actual_arrival_local": "2026-08-06 19:56",
+        "scheduled_runtime_min": 35,
+        "lateness_min": 11.0,
+        "tz_offset": "+05:30"
+      }
+    ]
+  }
+}

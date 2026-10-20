@@ -1,0 +1,71 @@
+{
+  "tool": "trip_evidence",
+  "arguments": {
+    "route": "R-37",
+    "start_date": "2026-08-03",
+    "end_date": "2026-08-07",
+    "min_lateness_min": 10,
+    "limit": 25
+  },
+  "result": {
+    "route": "R-37",
+    "matched": 5,
+    "trips": [
+      {
+        "trip_id": "T1-04739",
+        "route": "R-37",
+        "vehicle_series": "37",
+        "day": "2026-08-03",
+        "scheduled_departure": "2026-08-03 19:40",
+        "actual_arrival_local": "2026-08-03 20:32",
+        "scheduled_runtime_min": 40,
+        "lateness_min": 12.0,
+        "tz_offset": "+05:30"
+      },
+      {
+        "trip_id": "T1-04752",
+        "route": "R-37",
+        "vehicle_series": "37",
+        "day": "2026-08-04",
+        "scheduled_departure": "2026-08-04 07:02",
+        "actual_arrival_local": "2026-08-04 07:47",
+        "scheduled_runtime_min": 35,
+        "lateness_min": 10.0,
+        "tz_offset": "+05:30"
+      },
+      {
+        "trip_id": "T1-04768",
+        "route": "R-37",
+        "vehicle_series": "37",
+        "day": "2026-08-05",
+        "scheduled_departure": "2026-08-05 14:54",
+        "actual_arrival_local": "2026-08-05 15:40",
+        "scheduled_runtime_min": 35,
+        "lateness_min": 11.0,
+        "tz_offset": "+05:30"
+      },
+      {
+        "trip_id": "T1-04792",
+        "route": "R-37",
+        "vehicle_series": "37",
+        "day": "2026-08-06",
+        "scheduled_departure": "2026-08-06 06:07",
+        "actual_arrival_local": "2026-08-06 07:02",
+        "scheduled_runtime_min": 45,
+        "lateness_min": 10.0,
+        "tz_offset": "+05:30"
+      },
+      {
+        "trip_id": "T1-04787",
+        "route": "R-37",
+        "vehicle_series": "37",
+        "day": "2026-08-06",
+        "scheduled_departure": "2026-08-06 11:31",
+        "actual_arrival_local": "2026-08-06 12:19",
+        "scheduled_runtime_min": 35,
+        "lateness_min": 13.0,
+        "tz_offset": "+05:30"
+      }
+    ]
+  }
+}

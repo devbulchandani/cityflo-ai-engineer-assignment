@@ -26,6 +26,10 @@ This review covers 3–9 August 2026. The source contains 5,292 trip rows. After
 
 The ops notes report a Wednesday morning western-corridor diversion of about 35 minutes and a citywide festival slowdown around 18:20. The ops log has no route key. Those facts are timing context only; they do not prove the cause of any route’s lateness.
 
+### REC-114 effective-date sensitivity
+
+The baseline applies R-14's 53-minute revised runtime only from the stated 5 August 2026 effective date. Under that interpretation R-14 has 249 excess trip-minutes and ranks third; R-33 has 182 and ranks fourth. As a sensitivity check, applying the revised runtime to all R-14 trips from 3–9 August lowers R-14 to 166 excess trip-minutes (down 83) and moves it to fourth, while R-33 becomes third and enters the FLAG group. Keep the strict effective-date interpretation: the schedule explicitly dates the change to 5 August, and no source says it is retroactive. If ops confirms the revision should cover the full week, revise the baseline and flags accordingly.
+
 ## One verdict per route
 
 “Trips >5m” counts trips with lateness strictly greater than five minutes. “Excess trip-min” sums only the minutes beyond five per trip. “Late days” applies the minimum sample and daily median rule above. Negative weekly medians mean the midpoint of included trips arrived before the scheduled runtime; they do not offset positive excess burden.
